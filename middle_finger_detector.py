@@ -20,7 +20,7 @@ cap = cv2.VideoCapture(0)
 
 def shutdown_system():
     print("Shutdown will commence in 0.5 seconds...")
-    time.sleep(0.2)  # Add half second delay
+    time.sleep(0.2)  
     if platform.system() == 'Linux':
         os.system('shutdown now')
     elif platform.system() == 'Darwin':  # macOS
